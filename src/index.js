@@ -76,7 +76,7 @@ class RCTVoice {
           callback,
         );
       } else {
-        Voice.startSpeech(locale, callback);
+        Voice.startSpeech(locale, options.contextualStrings, callback);
       }
     });
   }
